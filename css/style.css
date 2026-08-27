@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: goldenrod;
+  color: white;
+}
+
+.hero-section {
+  min-height: 900px;
+  background-image: url(../img/Airbus\ A380.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Styling the Navigation */
+header {
+  padding: 20px 50px;
+  background: transparent;
+}
+
+nav {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 65px;
+  height: auto;
+}
+
+.logo h1 {
+  margin: 0;
+  color: #043267;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #0042ff;
+}
+/* End of Styling the Navigation */
+
+/* Styling the hero section */
+.hero-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+}
+
+.hero-text {
+  margin-top: 250px;
+  width: 45%;
+}
+
+.hero-text h2 {
+  font-size: 60px;
+  color: black;
+  line-height: 0.1;
+  margin-bottom: 25px;
+  font-weight: 800;
+}
+
+.hero-text h1 {
+  font-size: 100px;
+  color: #0042ff;
+  line-height: 1.1;
+  margin-bottom: 25px;
+  font-weight: 800;
+}
+
+.hero-text span {
+  color: #043267;
+}
+
+.hero-text p {
+  font-size: 25px;
+  color: black;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.hero-button {
+  padding: 15px 35px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 20px;
+  background: #0042ff;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+.hero-button:hover {
+  transform: translateY(-4px);
+}
+/* End of styling hero section */
