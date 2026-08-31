@@ -126,3 +126,186 @@ nav {
   transform: translateY(-4px);
 }
 /* End of styling hero section */
+/* Styling section class brief */
+.brief {
+  min-height: 730px;
+  position: relative;
+  overflow: hidden;
+  padding: 18px 20px 40px;
+  color: #fff;
+  background-color: #043267;
+}
+
+.brief h1 {
+  margin: 0 0 34px;
+  color: #f3e500;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.events {
+  width: min(960px, 1800px);
+  height: 565px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+  /* places cards above the arrows */
+}
+
+.events article {
+  width: 180px;
+  min-height: 200px;
+  position: absolute;
+  padding: 22px 14px;
+  text-align: center;
+  background-color: black;
+  border: 3px solid;
+}
+
+.events h2 {
+  margin: 0 0 3px;
+  font-size: 20px;
+}
+
+.events h3 {
+  margin: 0 0 18px;
+  color: #f3e500;
+  font-size: 18px;
+}
+
+.events p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.event-launch {
+  top: 0;
+  left: 220px;
+}
+
+.event-flight {
+  top: 0;
+  left: 552px;
+}
+
+.event-service {
+  top: 200px;
+  right: 0;
+}
+
+.event-flagship {
+  top: 357px;
+  left: 552px;
+}
+
+.event-end {
+  top: 357px;
+  left: 220px;
+}
+
+.event-legacy {
+  top: 200px;
+  left: 0;
+}
+/* Styling the Arrows */
+.arrow {
+  position: absolute;
+  z-index: 1;
+  /* places arrows behind the cards, since we use z-index: 2 on the boxes */
+  color: white;
+}
+
+.straight {
+  width: 145px;
+  height: 10px;
+  background: white;
+  border-radius: 20px;
+}
+
+.straight::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -2px;
+  width: 35px;
+  height: 35px;
+  border-top: 10px solid white;
+  border-right: 10px solid white;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.curve {
+  width: 120px;
+  height: 120px;
+  border: 10px solid white;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-radius: 0 110px 0 0;
+}
+
+.curve::after {
+  content: "";
+  position: absolute;
+  right: -18px;
+  bottom: -8px;
+  width: 24px;
+  height: 24px;
+  border-right: 10px solid white;
+  border-bottom: 10px solid white;
+  transform: rotate(45deg);
+}
+
+.arrow-one {
+  top: 174px;
+  left: 45.5%;
+}
+
+.arrow-two {
+  top: 174px;
+  right: 600px;
+}
+
+.arrow-three {
+  top: 480px;
+  right: 564px;
+  transform: rotate(90deg);
+}
+
+.arrow-four {
+  top: 600px;
+  right: 45.8%;
+  transform: rotate(180deg);
+}
+
+.arrow-five {
+  top: 530px;
+  left: 575px;
+  transform: rotate(180deg);
+}
+
+@media (max-width: 850px) {
+  .brief {
+    min-height: auto;
+  }
+  .events {
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .events article {
+    width: 100%;
+    min-height: auto;
+    position: static;
+  }
+
+  .arrow {
+    display: noneS;
+  }
+}
