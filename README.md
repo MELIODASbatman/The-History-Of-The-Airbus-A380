@@ -1,59 +1,58 @@
-# ✈️ The History of the Airbus A380
+# The History of the Airbus A380
 
-A web project exploring the history, development, design, and legacy of the **Airbus A380**, the world's largest passenger airliner.
+A beginner-friendly web development project created to teach students how to build a website using **HTML and CSS** while exploring the history of the Airbus A380.
 
-## 📖 About the Project
+## About the Project
 
-**The History of the Airbus A380** is an educational web project created to explore the story behind one of the most remarkable aircraft ever built.
+**The History of the Airbus A380** is an educational website project designed for students who are learning the fundamentals of web development.
 
-The website takes visitors through the journey of the Airbus A380, from the early ideas and development stages to its first flight, entry into commercial service, and eventual end of production.
+The project combines **HTML structure** and **CSS styling** with interesting information about the Airbus A380.
 
-The project is designed to make aviation history interesting and easy to understand through a combination of **text, images, and an interactive web design**.
+Through this project, students learn how to create and organize a webpage while building a website around a real-world topic.
 
-## ✈️ What You Will Learn
+The website presents the history of the Airbus A380, from its early development and design to its first flight, commercial service, challenges, and legacy.
 
-The website covers important milestones in the history of the Airbus A380, including:
+## Learning Objectives
 
-- 🏗️ The idea and development of the A380
-- 🏭 How Airbus designed and built the aircraft
-- 🛫 The A380's first flight
-- 🌍 Its entry into commercial service
-- 👨‍✈️ Airlines that operated the aircraft
-- 🛩️ The aircraft's unique features and design
-- 📈 Its impact on commercial aviation
-- 📉 The challenges faced by the A380
-- 🛑 The decision to end A380 production
-- 🌟 The legacy of the world's largest passenger aircraft
+By working on this project, students learn how to:
 
-## 🎯 Project Objectives
+1. Create a basic webpage using HTML5.
+2. Structure content using HTML elements.
+3. Create navigation menus.
+4. Add images to a webpage.
+5. Create headings, paragraphs, lists, and sections.
+6. Create cards and content boxes using HTML and CSS.
+7. Use CSS to style webpages.
+8. Work with colors, fonts, borders, spacing, and backgrounds.
+9. Use CSS Flexbox and Grid for layouts.
+10. Create hover effects and simple animations.
+11. Organize website files and folders.
+12. Build a complete multi-section website.
 
-The main objectives of this project are to:
+## Technologies Used
 
-1. Learn more about the history of the Airbus A380.
-2. Present aviation information in an engaging way.
-3. Practice building and designing a modern website.
-4. Improve HTML, CSS, and JavaScript skills.
-5. Create an educational website that is easy for visitors to explore.
+This project focuses mainly on:
 
-## 💻 Technologies Used
+* **HTML5** – Used to create the structure and content of the website.
+* **CSS3** – Used to style the website and create the layout, cards, animations, and visual effects.
+* **Images** – Used to make the website more visually appealing.
 
-This project was built using:
+JavaScript may be introduced later when students are ready to add more interactive functionality.
 
-- **HTML5** – Website structure
-- **CSS3** – Styling and layout
-- **JavaScript** – Interactivity and functionality
-- **Images & Graphics** – Visual presentation
-
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Airbus-A380-History/
 │
 ├── index.html
-├── style.css
-├── script.js
+├── history.html
+├── specifications.html
+├── airlines.html
 │
-├── images/
+├── css/
+│   └── style.css
+│
+├── img/
 │   ├── a380.jpg
 │   ├── a380-first-flight.jpg
 │   └── airlines/
@@ -61,89 +60,234 @@ Airbus-A380-History/
 └── README.md
 ```
 
-## 🌍 Website Sections
+## Website Sections
 
-The website may include sections such as:
+### 1. Home
 
-### 1. Introduction
+Introduces the Airbus A380 and provides an overview of the website.
 
-An overview of the Airbus A380 and why it became such an important aircraft.
+Students practice:
 
-### 2. Early Development
+* HTML headings
+* Paragraphs
+* Images
+* Navigation
+* Hero sections
+* Buttons
 
-The story behind Airbus's decision to develop a very large passenger aircraft.
+### 2. History
 
-### 3. Design & Engineering
+Explores the development and history of the Airbus A380.
 
-A look at the A380's double-deck design, four-engine configuration, wings, passenger capacity, and advanced technology.
+Students practice:
+
+* Sections
+* Content boxes
+* Cards
+* Lists
+* Text formatting
+* CSS layouts
+
+### 3. Design and Engineering
+
+Explains the unique design of the A380, including its double-deck configuration, four engines, large wings, passenger capacity, and long-range capabilities.
+
+Students practice creating information cards and arranging content using CSS.
 
 ### 4. First Flight
 
-Information about the aircraft's first flight and the beginning of its testing program.
+Introduces the A380's first flight and the testing program that followed.
+
+Students practice:
+
+* Images
+* Text sections
+* Borders
+* Backgrounds
+* Spacing
 
 ### 5. Commercial Service
 
-The launch of the A380 into commercial passenger service and its early years with airlines around the world.
+Explores the introduction of the A380 into commercial passenger service and its operation by airlines around the world.
 
-### 6. The A380 Around the World
+Students practice creating structured content and airline information cards.
 
-A look at some of the major airlines that operated the aircraft and the routes where it became famous.
+### 6. A380 Around the World
+
+Shows some of the major airlines that operated the Airbus A380 and the routes where the aircraft became well known.
+
+Students practice:
+
+* Image galleries
+* Cards
+* CSS Grid
+* Flexbox
 
 ### 7. Challenges
 
-The project explores some of the difficulties surrounding the A380, including operating costs, airport requirements, changing airline strategies, and competition from smaller twin-engine aircraft.
+Explains some of the challenges faced by the A380, including operating costs, airport requirements, changing airline strategies, and competition from smaller twin-engine aircraft.
+
+Students learn how to present information in an organized and readable layout.
 
 ### 8. End of Production
 
-The website explains why Airbus eventually decided to stop producing the A380.
+Explains why Airbus eventually decided to end production of the A380.
+
+Students practice creating timeline-style sections and highlighting important dates.
 
 ### 9. Legacy
 
-The lasting impact of the A380 and why it remains one of the most recognizable passenger aircraft in aviation history.
+Explores the lasting impact of the Airbus A380 and why it remains one of the most recognizable passenger aircraft in aviation history.
 
-## ⭐ Key Features of the Airbus A380
+## HTML Skills Practiced
 
-Some of the features that made the A380 unique include:
+Throughout the project, students practice using HTML elements such as:
 
-- Full-length double-deck passenger cabin
-- Four-engine configuration
-- Large passenger capacity
-- Advanced aerodynamic design
-- Spacious cabin
-- Designed for long-haul international routes
-- One of the largest commercial aircraft ever built
+```html
+<header>
+<nav>
+<section>
+<article>
+<div>
+<h1>
+<h2>
+<p>
+<img>
+<ul>
+<li>
+<a>
+<footer>
+```
 
-## 📚 Purpose of the Project
+Students also learn how to use:
 
-This project is primarily an **educational and web-development project**. It combines an interest in aviation with practical website development skills.
+* Classes
+* IDs
+* Semantic HTML
+* Links
+* Images
+* Attributes
+* Page structure
 
-The goal is to present the history of the Airbus A380 in a way that is informative, visually appealing, and enjoyable to explore.
+## CSS Skills Practiced
 
-## 🚀 Future Improvements
+The project introduces students to important CSS concepts including:
 
-Possible future improvements include:
+* Selectors
+* Colors
+* Fonts
+* Font sizes
+* Background images
+* Borders
+* Border radius
+* Margins
+* Padding
+* Width and height
+* Flexbox
+* CSS Grid
+* Positioning
+* Hover effects
+* Transitions
+* Animations
+* Responsive design
 
-- Add an interactive A380 timeline
-- Add aircraft specifications
-- Add an interactive aircraft gallery
-- Add animations and transitions
-- Add an airline map showing major A380 routes
-- Add a responsive mobile design
-- Add more historical photographs
-- Add interactive aircraft diagrams
+## Teaching Approach
 
-## 👨‍💻 Author
+The website is designed to be developed **step by step**.
 
-Created as a web development project focused on the **history of the Airbus A380**.
+Students can begin with a simple HTML structure and gradually improve the design using CSS.
 
-## 📄 License
+### Stage 1 – HTML Structure
+
+Students create the basic webpage structure and add the content.
+
+### Stage 2 – CSS Styling
+
+Students add colors, fonts, spacing, borders, and backgrounds.
+
+### Stage 3 – Layout
+
+Students learn how to arrange content using Flexbox and CSS Grid.
+
+### Stage 4 – Cards and Sections
+
+Students create information cards to display aircraft specifications and historical information.
+
+### Stage 5 – Effects
+
+Students add hover effects, transitions, and simple CSS animations.
+
+### Stage 6 – Responsive Design
+
+Students learn how to make the website work on different screen sizes.
+
+## Key Features of the Airbus A380
+
+The website introduces students to some of the features that made the A380 unique:
+
+* Full-length double-deck passenger cabin
+* Four-engine configuration
+* Large passenger capacity
+* Long-range capability
+* Advanced aerodynamic design
+* Spacious passenger cabin
+* Designed primarily for long-haul routes
+* One of the largest commercial aircraft ever built
+
+## What Students Should Be Able to Do After the Project
+
+After completing the project, students should be able to:
+
+* Create a complete HTML webpage.
+* Connect an external CSS file.
+* Organize website files and folders.
+* Create navigation menus.
+* Add and style images.
+* Create content cards.
+* Use Flexbox and Grid.
+* Create attractive webpage layouts.
+* Add hover effects and transitions.
+* Understand how HTML and CSS work together.
+* Build their own simple website from scratch.
+
+## Future Improvements
+
+As students progress, the project can be expanded with:
+
+* Interactive A380 timeline
+* Aircraft specifications page
+* Image gallery
+* Airline map
+* More CSS animations
+* Responsive mobile design
+* Interactive aircraft diagrams
+* JavaScript functionality
+* More historical information
+
+## Purpose of the Project
+
+This project combines **aviation history with practical web development**.
+
+Instead of learning HTML and CSS only through small exercises, students use their skills to create a complete website based on a real-world topic.
+
+The Airbus A380 provides an interesting subject while allowing students to practice important web development concepts progressively.
+
+## Author
+
+Created as an **HTML and CSS teaching project** to help students learn web development through practical website development.
+
+## License
 
 This project is intended for educational purposes.
 
-Please ensure that any images, graphics, or other third-party materials used in the website are properly credited and used according to their respective licenses.
+Any third-party images, graphics, or other resources used in the project should be properly credited and used according to their respective licenses.
 
 ---
 
-### ✈️ Explore the History of the Airbus A380
+## Learning Through Practice
 
-**From an ambitious idea to an aviation icon — discover the story of the Airbus A380.**
+The goal of this project is not only to learn about the Airbus A380, but also to learn how to **plan, structure, design, and build a website using HTML and CSS**.
+
+Students are encouraged to experiment with the code, change the design, and gradually develop their own ideas.
+
+**Learn HTML. Learn CSS. Build something real.**
