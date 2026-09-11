@@ -46,8 +46,9 @@ Airbus-A380-History/
 │
 ├── index.html
 ├── history.html
-├── specifications.html
-├── airlines.html
+├── gallery.html
+├── features.html
+├── contact.html
 │
 ├── css/
 │   └── style.css
