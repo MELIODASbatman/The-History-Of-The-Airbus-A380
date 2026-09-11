@@ -454,6 +454,66 @@ nav {
   border-left: 9px solid #f3e500;
 }
 
+/* Styling The Footer */
+
+footer {
+  min-height: 250px;
+  background-image: url(../img/foot.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer-content {
+  padding: 10px;
+}
+
+.footer-text h3 {
+  font-family: "Agency FB";
+  font-size: 300px;
+}
+
+.footer-text h2 {
+  font-family: "Agency FB";
+  font-size: 50px;
+  color: #009eea;
+}
+
+.explore {
+  font-size: 50px;
+  color: #009eea;
+  font-family: "Agency FB";
+  text-decoration: underline;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  top: -380px;
+}
+
+.footer-links ul {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 20px 0;
+  position: relative;
+  top: -350px;
+}
+.footer-links a {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-bottom {
+  position: relative;
+  top: -180px;
+  width: 100%;
+  border-top: 5px solid #009eea;
+  padding: 20px 0;
+  text-align: center;
+}
+
 /* Responsive for the hero-section class */
 /* =========================
    TABLET
